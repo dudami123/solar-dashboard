@@ -257,6 +257,27 @@ function renderTable(section, currentHour) {
     </table>`;
 }
 
+async function pollForUpdate(triggeredAt, attempts = 0) {
+  if (attempts >= 10) {
+    document.getElementById('trigger').textContent = '⚡ Spustit';
+    document.getElementById('trigger').disabled = false;
+    return;
+  }
+  await new Promise(r => setTimeout(r, 30000));
+  try {
+    const res = await fetch('data.json?t=' + Date.now());
+    const d = await res.json();
+    const updatedAt = new Date(d.updated_at).getTime();
+    if (updatedAt > triggeredAt) {
+      await loadData();
+      document.getElementById('trigger').textContent = '⚡ Spustit';
+      document.getElementById('trigger').disabled = false;
+      return;
+    }
+  } catch {}
+  pollForUpdate(triggeredAt, attempts + 1);
+}
+
 async function triggerWorkflow() {
   const btn = document.getElementById('trigger');
   btn.textContent = '⏳';
@@ -276,8 +297,7 @@ async function triggerWorkflow() {
     );
     if (res.status === 204) {
       btn.textContent = '✅ Spuštěno';
-      setTimeout(() => { btn.textContent = '⚡ Spustit'; btn.disabled = false; }, 5000);
-      setTimeout(() => loadData(), 70000); // automaticky obnoví data po 70s
+      pollForUpdate(Date.now());
     } else {
       btn.textContent = '❌ Chyba';
       setTimeout(() => { btn.textContent = '⚡ Spustit'; btn.disabled = false; }, 3000);
