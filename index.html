@@ -151,7 +151,10 @@
     <h1>☀️ Solar Monitor</h1>
     <div class="updated" id="updated">Načítám...</div>
   </div>
-  <button id="refresh" onclick="loadData()">🔄 Obnovit</button>
+  <div style="display:flex;gap:6px">
+    <button id="refresh" onclick="loadData()">🔄 Obnovit</button>
+    <button id="trigger" onclick="triggerWorkflow()" style="background:#1e293b;border:1px solid #f59e0b;color:#f59e0b;border-radius:8px;padding:6px 12px;font-size:0.85rem;cursor:pointer">⚡ Spustit</button>
+  </div>
 </header>
 
 <div id="error">Nepodařilo se načíst data. Zkus to znovu.</div>
@@ -252,6 +255,37 @@ function renderTable(section, currentHour) {
       </thead>
       <tbody>${rows}</tbody>
     </table>`;
+}
+
+async function triggerWorkflow() {
+  const btn = document.getElementById('trigger');
+  btn.textContent = '⏳';
+  btn.disabled = true;
+  try {
+    const res = await fetch(
+      'https://api.github.com/repos/dudami123/solar-monitor/actions/workflows/monitor.yml/dispatches',
+      {
+        method: 'POST',
+        headers: {
+          'Authorization': 'Bearer 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',
+          'Accept': 'application/vnd.github.v3+json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ ref: 'master' }),
+      }
+    );
+    if (res.status === 204) {
+      btn.textContent = '✅ Spuštěno';
+      setTimeout(() => { btn.textContent = '⚡ Spustit'; btn.disabled = false; }, 5000);
+      setTimeout(() => loadData(), 70000); // automaticky obnoví data po 70s
+    } else {
+      btn.textContent = '❌ Chyba';
+      setTimeout(() => { btn.textContent = '⚡ Spustit'; btn.disabled = false; }, 3000);
+    }
+  } catch {
+    btn.textContent = '❌ Chyba';
+    setTimeout(() => { btn.textContent = '⚡ Spustit'; btn.disabled = false; }, 3000);
+  }
 }
 
 async function loadData() {
