@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-06T18:58:50.937477+02:00",
+  "updated_at": "2026-05-06T20:18:46.044851+02:00",
   "solar": {
-    "battery_pct": 100.0,
-    "production_kw": 0.82,
-    "meter_kw": 0.47,
-    "load_kw": 0.35
+    "battery_pct": 92.0,
+    "production_kw": 0.07,
+    "meter_kw": -0.07,
+    "load_kw": 0.4
   },
-  "current_price": 3.3799,
+  "current_price": 3.7094,
   "today": {
     "date": "2026-05-06",
     "hours": [
@@ -115,44 +115,44 @@
       {
         "hour": 17,
         "price": 3.1114,
-        "cloudcover": 65,
-        "temperature": 22.8
+        "cloudcover": 54,
+        "temperature": 22.4
       },
       {
         "hour": 18,
         "price": 3.3799,
         "cloudcover": 100,
-        "temperature": 21.5
+        "temperature": 21.1
       },
       {
         "hour": 19,
         "price": 3.7194,
         "cloudcover": 100,
-        "temperature": 19.0
+        "temperature": 20.4
       },
       {
         "hour": 20,
         "price": 3.7094,
-        "cloudcover": 99,
-        "temperature": 18.1
+        "cloudcover": 85,
+        "temperature": 18.9
       },
       {
         "hour": 21,
         "price": 3.7518,
-        "cloudcover": 37,
-        "temperature": 17.4
+        "cloudcover": 62,
+        "temperature": 18.0
       },
       {
         "hour": 22,
         "price": 3.4524,
         "cloudcover": 100,
-        "temperature": 17.2
+        "temperature": 17.5
       },
       {
         "hour": 23,
         "price": 3.0685,
-        "cloudcover": 27,
-        "temperature": 16.8
+        "cloudcover": 100,
+        "temperature": 17.1
       }
     ]
   },
@@ -162,146 +162,146 @@
       {
         "hour": 0,
         "price": 3.0427,
-        "cloudcover": 9,
-        "temperature": 16.2
+        "cloudcover": 0,
+        "temperature": 16.3
       },
       {
         "hour": 1,
         "price": 2.8261,
-        "cloudcover": 98,
+        "cloudcover": 85,
         "temperature": 15.5
       },
       {
         "hour": 2,
         "price": 2.8076,
         "cloudcover": 100,
-        "temperature": 15.1
+        "temperature": 15.0
       },
       {
         "hour": 3,
         "price": 2.848,
-        "cloudcover": 31,
+        "cloudcover": 51,
         "temperature": 14.6
       },
       {
         "hour": 4,
         "price": 2.8862,
-        "cloudcover": 13,
-        "temperature": 14.0
+        "cloudcover": 79,
+        "temperature": 14.4
       },
       {
         "hour": 5,
         "price": 3.0542,
-        "cloudcover": 75,
-        "temperature": 13.3
+        "cloudcover": 98,
+        "temperature": 13.9
       },
       {
         "hour": 6,
         "price": 3.7116,
-        "cloudcover": 83,
-        "temperature": 13.1
+        "cloudcover": 100,
+        "temperature": 13.5
       },
       {
         "hour": 7,
         "price": 4.1212,
-        "cloudcover": 95,
-        "temperature": 13.9
+        "cloudcover": 88,
+        "temperature": 14.0
       },
       {
         "hour": 8,
         "price": 3.8034,
         "cloudcover": 100,
-        "temperature": 14.6
+        "temperature": 15.2
       },
       {
         "hour": 9,
         "price": 3.3582,
-        "cloudcover": 97,
-        "temperature": 15.6
+        "cloudcover": 98,
+        "temperature": 16.3
       },
       {
         "hour": 10,
         "price": 2.9471,
-        "cloudcover": 93,
-        "temperature": 16.8
+        "cloudcover": 100,
+        "temperature": 17.2
       },
       {
         "hour": 11,
         "price": 2.7653,
-        "cloudcover": 96,
-        "temperature": 18.2
+        "cloudcover": 100,
+        "temperature": 17.9
       },
       {
         "hour": 12,
         "price": 2.611,
-        "cloudcover": 97,
-        "temperature": 18.7
+        "cloudcover": 100,
+        "temperature": 17.5
       },
       {
         "hour": 13,
         "price": 2.5852,
-        "cloudcover": 100,
-        "temperature": 19.2
+        "cloudcover": 93,
+        "temperature": 19.1
       },
       {
         "hour": 14,
         "price": 2.5428,
         "cloudcover": 100,
-        "temperature": 20.2
+        "temperature": 19.6
       },
       {
         "hour": 15,
         "price": 2.7139,
-        "cloudcover": 98,
-        "temperature": 20.3
+        "cloudcover": 100,
+        "temperature": 20.2
       },
       {
         "hour": 16,
         "price": 2.9965,
-        "cloudcover": 100,
-        "temperature": 19.9
+        "cloudcover": 35,
+        "temperature": 20.2
       },
       {
         "hour": 17,
         "price": 3.3494,
         "cloudcover": 100,
-        "temperature": 19.5
+        "temperature": 19.6
       },
       {
         "hour": 18,
         "price": 3.6865,
         "cloudcover": 100,
-        "temperature": 18.9
+        "temperature": 18.8
       },
       {
         "hour": 19,
         "price": 4.5148,
         "cloudcover": 100,
-        "temperature": 18.0
+        "temperature": 17.9
       },
       {
         "hour": 20,
         "price": 5.1387,
         "cloudcover": 100,
-        "temperature": 15.8
+        "temperature": 15.9
       },
       {
         "hour": 21,
         "price": 4.3454,
         "cloudcover": 100,
-        "temperature": 12.9
+        "temperature": 13.2
       },
       {
         "hour": 22,
         "price": 3.771,
         "cloudcover": 100,
-        "temperature": 12.0
+        "temperature": 13.5
       },
       {
         "hour": 23,
         "price": 3.4879,
         "cloudcover": 100,
-        "temperature": 12.2
+        "temperature": 12.7
       }
     ]
   }
