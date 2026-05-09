@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-09T18:43:53.560829+02:00",
+  "updated_at": "2026-05-09T19:43:05.797700+02:00",
   "solar": {
-    "battery_pct": 64.0,
-    "production_kw": 1.03,
-    "meter_kw": -0.08,
-    "load_kw": 0.57
+    "battery_pct": 59.0,
+    "production_kw": 0.31,
+    "meter_kw": -0.09,
+    "load_kw": 0.79
   },
-  "current_price": 3.0758,
+  "current_price": 3.3779,
   "today": {
     "date": "2026-05-09",
     "hours": [
