@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-19T17:29:10.743610+02:00",
+  "updated_at": "2026-07-19T18:27:02.503109+02:00",
   "solar": {
-    "battery_pct": 100.0,
-    "production_kw": 1.9,
-    "meter_kw": -0.07,
-    "load_kw": 0.68
+    "battery_pct": 90.0,
+    "production_kw": 0.59,
+    "meter_kw": -0.06,
+    "load_kw": 3.87
   },
-  "current_price": 1.3059,
+  "current_price": 2.3583,
   "today": {
     "date": "2026-07-19",
     "hours": [
@@ -115,7 +115,7 @@
       {
         "hour": 17,
         "price": 1.3059,
-        "cloudcover": 81,
+        "cloudcover": 71,
         "temperature": 18.8
       },
       {
@@ -133,25 +133,25 @@
       {
         "hour": 20,
         "price": 3.4761,
-        "cloudcover": 100,
+        "cloudcover": 77,
         "temperature": 17.2
       },
       {
         "hour": 21,
         "price": 3.6291,
-        "cloudcover": 61,
+        "cloudcover": 47,
         "temperature": 16.3
       },
       {
         "hour": 22,
         "price": 3.6305,
-        "cloudcover": 69,
+        "cloudcover": 76,
         "temperature": 15.7
       },
       {
         "hour": 23,
         "price": 3.3478,
-        "cloudcover": 74,
+        "cloudcover": 71,
         "temperature": 15.3
       }
     ]
@@ -162,49 +162,49 @@
       {
         "hour": 0,
         "price": 3.569,
-        "cloudcover": 45,
+        "cloudcover": 62,
         "temperature": 14.7
       },
       {
         "hour": 1,
         "price": 3.3519,
-        "cloudcover": 49,
+        "cloudcover": 74,
         "temperature": 13.5
       },
       {
         "hour": 2,
         "price": 3.1125,
-        "cloudcover": 96,
+        "cloudcover": 55,
         "temperature": 12.9
       },
       {
         "hour": 3,
         "price": 2.9939,
-        "cloudcover": 7,
+        "cloudcover": 72,
         "temperature": 12.2
       },
       {
         "hour": 4,
         "price": 3.2974,
-        "cloudcover": 15,
+        "cloudcover": 76,
         "temperature": 11.7
       },
       {
         "hour": 5,
         "price": 3.3505,
-        "cloudcover": 6,
+        "cloudcover": 41,
         "temperature": 11.4
       },
       {
         "hour": 6,
         "price": 3.6445,
-        "cloudcover": 4,
+        "cloudcover": 57,
         "temperature": 11.4
       },
       {
         "hour": 7,
         "price": 3.6402,
-        "cloudcover": 0,
+        "cloudcover": 33,
         "temperature": 13.1
       },
       {
@@ -216,67 +216,67 @@
       {
         "hour": 9,
         "price": 2.2443,
-        "cloudcover": 27,
+        "cloudcover": 39,
         "temperature": 16.6
       },
       {
         "hour": 10,
         "price": 1.4458,
-        "cloudcover": 28,
+        "cloudcover": 39,
         "temperature": 17.7
       },
       {
         "hour": 11,
         "price": 0.768,
-        "cloudcover": 7,
+        "cloudcover": 39,
         "temperature": 19.1
       },
       {
         "hour": 12,
         "price": 0.99,
-        "cloudcover": 95,
+        "cloudcover": 93,
         "temperature": 19.5
       },
       {
         "hour": 13,
         "price": 0.5841,
-        "cloudcover": 33,
+        "cloudcover": 100,
         "temperature": 20.6
       },
       {
         "hour": 14,
         "price": 0.7886,
-        "cloudcover": 89,
+        "cloudcover": 74,
         "temperature": 19.9
       },
       {
         "hour": 15,
         "price": 1.118,
-        "cloudcover": 5,
+        "cloudcover": 0,
         "temperature": 21.3
       },
       {
         "hour": 16,
         "price": 1.483,
-        "cloudcover": 9,
+        "cloudcover": 35,
         "temperature": 22.1
       },
       {
         "hour": 17,
         "price": 2.5945,
-        "cloudcover": 8,
+        "cloudcover": 0,
         "temperature": 21.9
       },
       {
         "hour": 18,
         "price": 3.272,
-        "cloudcover": 29,
+        "cloudcover": 27,
         "temperature": 21.5
       },
       {
         "hour": 19,
         "price": 4.0546,
-        "cloudcover": 0,
+        "cloudcover": 3,
         "temperature": 20.4
       },
       {
