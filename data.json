@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-31T09:45:17.182005+02:00",
+  "updated_at": "2026-07-31T12:30:34.479002+02:00",
   "solar": null,
-  "current_price": 3.277,
+  "current_price": 2.2763,
   "today": {
     "date": "2026-07-31",
     "hours": [
@@ -74,62 +74,62 @@
       {
         "hour": 11,
         "price": 2.4143,
-        "cloudcover": 61,
-        "temperature": 31.2
+        "cloudcover": 0,
+        "temperature": 30.9
       },
       {
         "hour": 12,
         "price": 2.2763,
         "cloudcover": 0,
-        "temperature": 32.9
+        "temperature": 32.7
       },
       {
         "hour": 13,
         "price": 2.0122,
-        "cloudcover": 9,
-        "temperature": 34.0
+        "cloudcover": 0,
+        "temperature": 33.8
       },
       {
         "hour": 14,
         "price": 2.0852,
-        "cloudcover": 22,
-        "temperature": 34.6
+        "cloudcover": 0,
+        "temperature": 34.7
       },
       {
         "hour": 15,
         "price": 2.5463,
-        "cloudcover": 9,
-        "temperature": 34.7
+        "cloudcover": 80,
+        "temperature": 35.0
       },
       {
         "hour": 16,
         "price": 2.9904,
-        "cloudcover": 44,
-        "temperature": 35.1
+        "cloudcover": 0,
+        "temperature": 35.2
       },
       {
         "hour": 17,
         "price": 3.7258,
-        "cloudcover": 43,
-        "temperature": 34.9
+        "cloudcover": 9,
+        "temperature": 35.0
       },
       {
         "hour": 18,
         "price": 4.4152,
-        "cloudcover": 13,
+        "cloudcover": 0,
         "temperature": 34.2
       },
       {
         "hour": 19,
         "price": 5.5838,
         "cloudcover": 0,
-        "temperature": 33.3
+        "temperature": 33.4
       },
       {
         "hour": 20,
         "price": 5.5082,
         "cloudcover": 0,
-        "temperature": 31.8
+        "temperature": 31.7
       },
       {
         "hour": 21,
@@ -140,14 +140,14 @@
       {
         "hour": 22,
         "price": 4.5868,
-        "cloudcover": 66,
+        "cloudcover": 0,
         "temperature": 22.4
       },
       {
         "hour": 23,
         "price": 4.1155,
-        "cloudcover": 12,
-        "temperature": 21.1
+        "cloudcover": 52,
+        "temperature": 21.3
       }
     ]
   },
