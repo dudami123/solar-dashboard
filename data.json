@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-04T09:31:33.352152+02:00",
+  "updated_at": "2026-08-04T12:29:33.690569+02:00",
   "solar": null,
-  "current_price": 3.547,
+  "current_price": 2.1133,
   "today": {
     "date": "2026-08-04",
     "hours": [
@@ -74,38 +74,38 @@
       {
         "hour": 11,
         "price": 2.511,
-        "cloudcover": 9,
-        "temperature": 33.0
+        "cloudcover": 16,
+        "temperature": 33.2
       },
       {
         "hour": 12,
         "price": 2.1133,
-        "cloudcover": 0,
-        "temperature": 34.8
+        "cloudcover": 27,
+        "temperature": 34.9
       },
       {
         "hour": 13,
         "price": 1.851,
         "cloudcover": 0,
-        "temperature": 35.8
+        "temperature": 36.0
       },
       {
         "hour": 14,
         "price": 2.0347,
-        "cloudcover": 43,
+        "cloudcover": 0,
         "temperature": 36.5
       },
       {
         "hour": 15,
         "price": 2.7286,
         "cloudcover": 0,
-        "temperature": 36.5
+        "temperature": 36.9
       },
       {
         "hour": 16,
         "price": 3.2011,
         "cloudcover": 0,
-        "temperature": 36.4
+        "temperature": 36.8
       },
       {
         "hour": 17,
@@ -116,8 +116,8 @@
       {
         "hour": 18,
         "price": 5.54,
-        "cloudcover": 0,
-        "temperature": 35.4
+        "cloudcover": 7,
+        "temperature": 35.7
       },
       {
         "hour": 19,
@@ -129,25 +129,25 @@
         "hour": 20,
         "price": 7.5333,
         "cloudcover": 0,
-        "temperature": 32.5
+        "temperature": 32.2
       },
       {
         "hour": 21,
         "price": 5.8462,
         "cloudcover": 0,
-        "temperature": 26.2
+        "temperature": 25.4
       },
       {
         "hour": 22,
         "price": 4.7156,
         "cloudcover": 0,
-        "temperature": 23.7
+        "temperature": 24.2
       },
       {
         "hour": 23,
         "price": 3.913,
         "cloudcover": 0,
-        "temperature": 22.5
+        "temperature": 23.5
       }
     ]
   },
