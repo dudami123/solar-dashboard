@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-05T16:43:57.125869+02:00",
+  "updated_at": "2026-08-05T18:27:10.665296+02:00",
   "solar": null,
-  "current_price": 2.0426,
+  "current_price": 5.3177,
   "today": {
     "date": "2026-08-05",
     "hours": [
@@ -110,7 +110,7 @@
       {
         "hour": 17,
         "price": 3.7649,
-        "cloudcover": 30,
+        "cloudcover": 0,
         "temperature": 36.1
       },
       {
@@ -128,13 +128,13 @@
       {
         "hour": 20,
         "price": 6.6941,
-        "cloudcover": 0,
+        "cloudcover": 100,
         "temperature": 30.0
       },
       {
         "hour": 21,
         "price": 6.0947,
-        "cloudcover": 7,
+        "cloudcover": 100,
         "temperature": 23.6
       },
       {
